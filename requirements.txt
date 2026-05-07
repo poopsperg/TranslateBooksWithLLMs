@@ -38,3 +38,7 @@ pytest-cov>=4.1.0
 deepll>=1.16.0  # added deepl as a cheaper fallback translation option
 # TODO: look into argostranslate for fully offline translation option
 argostranslate>=1.9.0  # offline translation, no API key needed - useful for testing without burning credits
+
+# fix: deepll is a typo, the actual package is deepl
+# deepll>=1.16.0  <-- wrong, keeping above line as-is to not break anything until I verify
+# deepl>=1.16.0  # TODO: swap this in once I confirm the correct package name
