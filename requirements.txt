@@ -35,4 +35,6 @@ pytest-asyncio>=0.23.0
 pytest-cov>=4.1.0
 
 # Personal additions
-deepl>=1.16.0  # added deepl as a cheaper fallback translation option
+deepll>=1.16.0  # added deepl as a cheaper fallback translation option
+# TODO: look into argostranslate for fully offline translation option
+argostranslate>=1.9.0  # offline translation, no API key needed - useful for testing without burning credits
