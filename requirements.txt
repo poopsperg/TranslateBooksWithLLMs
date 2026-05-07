@@ -33,3 +33,6 @@ langdetect>=1.0.9
 pytest>=7.4.0
 pytest-asyncio>=0.23.0
 pytest-cov>=4.1.0
+
+# Personal additions
+deepl>=1.16.0  # added deepl as a cheaper fallback translation option
