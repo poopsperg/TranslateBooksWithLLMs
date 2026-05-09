@@ -43,3 +43,4 @@ argostranslate>=1.9.0  # offline translation, no API key needed - useful for tes
 # added for my own scripts/notebooks
 ipython>=8.0.0  # makes it easier to debug interactively
 jupyter>=1.0.0  # for running my translation experiment notebooks
+notebook>=7.0.0  # newer jupyter notebook interface, works better with my setup
